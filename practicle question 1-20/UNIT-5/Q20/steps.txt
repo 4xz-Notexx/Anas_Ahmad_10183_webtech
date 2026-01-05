@@ -1,0 +1,24 @@
+Option 1: GitHub Pages
+
+1. Create a GitHub repository
+
+2. Upload index.html
+
+3. Go to Settings → Pages
+
+4. Select branch → main → save
+
+      Website becomes live
+
+
+
+
+Option 2: Netlify
+
+1. Open Netlify
+
+2. Drag & drop project folder
+
+3. Site is deployed instantly
+
+            Live URL is generated

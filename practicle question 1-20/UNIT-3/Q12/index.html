@@ -1,0 +1,56 @@
+<!--
+Q12. Write JavaScript to demonstrate conditional statements
+and looping (for, while, do...while).
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Condition and Loop</title>
+    <script>
+        function showResult() {
+            var n = Number(document.getElementById("num").value);
+            var text = "";
+
+            // Conditional
+            if (n % 2 === 0) {
+                text += "Number is Even<br>";
+            } else {
+                text += "Number is Odd<br>";
+            }
+
+            // For loop
+            for (var i = 1; i <= 5; i++) {
+                text += "For Loop: " + i + "<br>";
+            }
+
+            // While loop
+            var j = 1;
+            while (j <= 3) {
+                text += "While Loop: " + j + "<br>";
+                j++;
+            }
+
+            // Do while loop
+            var k = 1;
+            do {
+                text += "Do While Loop: " + k + "<br>";
+                k++;
+            } while (k <= 2);
+
+            document.getElementById("output").innerHTML = text;
+        }
+    </script>
+</head>
+
+<body>
+
+    Enter a number: <input type="text" id="num"><br><br>
+    <button onclick="showResult()">Show</button>
+
+    <p id="output"></p>
+
+</body>
+
+</html>

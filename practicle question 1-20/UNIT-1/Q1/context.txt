@@ -1,0 +1,141 @@
+Experiment 1
+Aim:
+
+Create a C4/C6/C65a basic HTML web page using headings, paragraphs, and text formatting tags.
+
+Theory (Short):
+
+HTML (HyperText Markup Language) is used to create the structure of web pages. It provides tags for headings, paragraphs, and formatting text like bold, italic, underline, etc.
+
+Code (index.html):
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML Page</title>
+</head>
+<body>
+
+    <h1>Welcome to My Web Page</h1>
+    <h2>About HTML</h2>
+
+    <p>
+        HTML is used to create web pages.
+        It helps in structuring content on the internet.
+    </p>
+
+    <p>
+        <b>This text is bold</b><br>
+        <i>This text is italic</i><br>
+        <u>This text is underlined</u><br>
+        <mark>This text is highlighted</mark><br>
+        <small>This text is small</small>
+    </p>
+
+</body>
+</html>
+
+Output:
+
+A simple web page displaying headings, paragraphs, and formatted text.
+
+Result:
+
+Thus, a basic HTML page using headings, paragraphs, and text formatting tags was successfully created.
+
+Experiment 2
+Aim:
+
+Design a web page demonstrating HTML links, images, and lists (ordered, unordered, nested).
+
+Code:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Links, Images and Lists</title>
+</head>
+<body>
+
+    <h1>HTML Elements Demo</h1>
+
+    <!-- Link -->
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+
+    <br><br>
+
+    <!-- Image -->
+    <img src="https://via.placeholder.com/200" alt="Sample Image">
+
+    <!-- Lists -->
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Frontend</li>
+        <li>Backend</li>
+        <li>Database</li>
+    </ol>
+
+    <h3>Nested List</h3>
+    <ul>
+        <li>Web Development
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
+
+Result:
+
+Links, images, and different types of lists were successfully displayed on a web page.
+
+Experiment 3
+Aim:
+
+Create a table-based layout with merged cells, alignment, and captions using HTML.
+
+Code:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table</title>
+</head>
+<body>
+
+    <table border="1" align="center">
+        <caption><b>Student Details</b></caption>
+
+        <tr>
+            <th rowspan="2">Roll No</th>
+            <th colspan="2">Name</th>
+            <th rowspan="2">Branch</th>
+        </tr>
+
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+
+        <tr align="center">
+            <td>101</td>
+            <td>Anas</td>
+            <td>Ahmad</td>
+            <td>AI & ML</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
+Result:
+
+A table with merged rows and columns was created successfully

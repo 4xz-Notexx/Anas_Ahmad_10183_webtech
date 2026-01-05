@@ -1,0 +1,39 @@
+<!--
+Q18. Implement JavaScript array and object operations
+with iteration using forEach().
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arrays and Objects</title>
+    <script>
+        function showData() {
+            var students = ["Anas", "Rahul", "Amit"];
+            var info = {
+                branch: "AI & ML",
+                semester: 1
+            };
+
+            var text = "Students:<br>";
+            students.forEach(function (name) {
+                text += name + "<br>";
+            });
+
+            text += "<br>Branch: " + info.branch;
+            text += "<br>Semester: " + info.semester;
+
+            document.getElementById("result").innerHTML = text;
+        }
+    </script>
+</head>
+
+<body>
+
+    <button onclick="showData()">Show Data</button>
+    <p id="result"></p>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+Experiment 2
+Aim:
+
+Design a web page demonstrating HTML links, images, and lists (ordered, unordered, nested).
+
+Code:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Links, Images and Lists</title>
+</head>
+<body>
+
+    <h1>HTML Elements Demo</h1>
+
+    <!-- Link -->
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+
+    <br><br>
+
+    <!-- Image -->
+    <img src="https://via.placeholder.com/200" alt="Sample Image">
+
+    <!-- Lists -->
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Frontend</li>
+        <li>Backend</li>
+        <li>Database</li>
+    </ol>
+
+    <h3>Nested List</h3>
+    <ul>
+        <li>Web Development
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
+
+Result:
+
+Links, images, and different types of lists were successfully displayed on a web page.

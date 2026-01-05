@@ -1,0 +1,26 @@
+<!--
+Q15. Demonstrate DOM manipulation by changing
+HTML content, style, and attributes using JavaScript.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Manipulation</title>
+    <script>
+        function changeContent() {
+            document.getElementById("text").innerHTML = "Text changed using DOM!";
+            document.getElementById("text").style.color = "red";
+        }
+    </script>
+</head>
+
+<body>
+
+    <p id="text">Original Text</p>
+    <button onclick="changeContent()">Change</button>
+
+</body>
+
+</html>

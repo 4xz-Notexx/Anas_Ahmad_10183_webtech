@@ -1,0 +1,47 @@
+<!--
+Q8. Demonstrate the use of different CSS selectors
+(class, id, descendant, group, universal).
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Selectors</title>
+    <style>
+        * {
+            font-family: Arial;
+        }
+
+        #main {
+            color: blue;
+        }
+
+        .text {
+            color: green;
+        }
+
+        div p {
+            background-color: lightyellow;
+        }
+
+        h1,
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Group Selector</h1>
+    <h2>Group Selector</h2>
+
+    <div id="main">
+        This is ID selector
+        <p class="text">Descendant selector example</p>
+    </div>
+
+</body>
+
+</html>

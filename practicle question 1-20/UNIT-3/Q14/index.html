@@ -1,0 +1,35 @@
+<!--
+Q14. Handle HTML form validation using JavaScript events
+like onsubmit and input, and use alert().
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation</title>
+    <script>
+        function validateForm() {
+            var name = document.getElementById("name").value;
+
+            if (name === "") {
+                alert("Name cannot be empty");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Form Validation</h2>
+
+    <form onsubmit="return validateForm()">
+        Name: <input type="text" id="name"><br><br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>

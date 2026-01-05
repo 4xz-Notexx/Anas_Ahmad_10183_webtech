@@ -1,0 +1,34 @@
+<!--
+Q16. Use JavaScript event handling
+(onclick, onmouseover, onmouseout).
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Events</title>
+    <script>
+        function showMsg() {
+            document.getElementById("msg").innerHTML = "Mouse Over Event";
+        }
+
+        function hideMsg() {
+            document.getElementById("msg").innerHTML = "Mouse Out Event";
+        }
+    </script>
+</head>
+
+<body>
+
+    <h3 onclick="alert('Clicked!')">Click Event</h3>
+
+    <p onmouseover="showMsg()" onmouseout="hideMsg()">
+        Hover over this text
+    </p>
+
+    <p id="msg"></p>
+
+</body>
+
+</html>

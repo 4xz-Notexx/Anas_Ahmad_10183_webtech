@@ -1,0 +1,39 @@
+<!--
+Q9. Create a responsive web page using media queries
+and mobile-first design with flexible units.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Responsive Design</title>
+    <style>
+        body {
+            font-size: 2vw;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        This page is responsive.
+    </div>
+
+</body>
+
+</html>

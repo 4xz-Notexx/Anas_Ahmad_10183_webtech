@@ -1,0 +1,47 @@
+Experiment 4
+Aim:
+
+Design a web page with an HTML form having text input, radio buttons, checkboxes, select menu, and submit/reset buttons.
+
+Code:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text"><br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        Skills:
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript
+        <br><br>
+
+        Branch:
+        <select>
+            <option>AI & ML</option>
+            <option>CSE</option>
+            <option>ECE</option>
+        </select>
+        <br><br>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+</body>
+</html>
+
+Result:
+
+An HTML form with various input elements was created.

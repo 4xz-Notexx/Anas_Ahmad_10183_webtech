@@ -1,0 +1,32 @@
+<!--
+Q13. Create and invoke user-defined functions in JavaScript;
+use var, let, and const for scope demonstration.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Functions and Scope</title>
+    <script>
+        function showScope() {
+            var a = 10;
+            let b = 20;
+            const c = 30;
+
+            document.getElementById("result").innerHTML =
+                "var: " + a + "<br>" +
+                "let: " + b + "<br>" +
+                "const: " + c;
+        }
+    </script>
+</head>
+
+<body>
+
+    <button onclick="showScope()">Show Values</button>
+    <p id="result"></p>
+
+</body>
+
+</html>

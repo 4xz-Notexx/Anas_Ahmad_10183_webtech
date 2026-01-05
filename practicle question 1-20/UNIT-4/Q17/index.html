@@ -1,0 +1,32 @@
+<!--
+Q17. Demonstrate JavaScript built-in objects:
+Date, Math, and String.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Built-in Objects</title>
+    <script>
+        function showObjects() {
+            var date = new Date();
+            var random = Math.random();
+            var text = "JavaScript";
+
+            document.getElementById("output").innerHTML =
+                "Date: " + date + "<br>" +
+                "Random Number: " + random + "<br>" +
+                "String Length: " + text.length;
+        }
+    </script>
+</head>
+
+<body>
+
+    <button onclick="showObjects()">Show Output</button>
+    <p id="output"></p>
+
+</body>
+
+</html>
